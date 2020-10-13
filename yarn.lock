@@ -2722,13 +2722,13 @@ gulp-jasmine@^4.0.0:
     plugin-error "^1.0.1"
     through2 "^2.0.3"
 
-gulp-jsduck@^0.3.0:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/gulp-jsduck/-/gulp-jsduck-0.3.1.tgz#5beec94f268b488d3581ffe69a29be0015bc77f5"
-  integrity sha1-W+7JTyaLSI01gf/mmim+ABW8d/U=
+gulp-jsduck@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gulp-jsduck/-/gulp-jsduck-1.0.0.tgz#d1e90f5fed8636a86fe1077dc7af7207c8a6dc29"
+  integrity sha1-0ekPX+2GNqhv4Qd9x69yB8im3Ck=
   dependencies:
     gulp-util "^3.0.6"
-    jsduck "^0.2.1"
+    jsduck "^1.1.2"
     through2 "^2.0.0"
     yajscf "^1.0.3"
 
@@ -3573,10 +3573,10 @@ jsbn@~0.1.0:
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
   integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
 
-jsduck@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/jsduck/-/jsduck-0.2.1.tgz#df3c452d604c59081cfef2e2bc7840815f609910"
-  integrity sha1-3zxFLWBMWQgc/vLivHhAgV9gmRA=
+jsduck@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/jsduck/-/jsduck-1.1.2.tgz#0ddf28b5542f5bbb5fc195378f697c08f0c84ea1"
+  integrity sha1-Dd8otVQvW7tfwZU3j2l8CPDITqE=
   dependencies:
     spawn-sync "^1.0.13"
     underscore "^1.8.3"
@@ -6836,10 +6836,15 @@ tough-cookie@~2.5.0:
     psl "^1.1.28"
     punycode "^2.1.1"
 
-tslib@^1.9.0, tslib@^1.9.3:
+tslib@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
+
+tslib@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.3.tgz#8e0741ac45fc0c226e58a17bfc3e64b9bc6ca61c"
+  integrity sha512-uZtkfKblCEQtZKBF6EBXVZeQNl82yqtDQdv+eck8u7tdPxjLu2/lp5/uPW+um2tpuxINHWy3GhiccY7QgEaVHQ==
 
 tty-browserify@0.0.0:
   version "0.0.0"
